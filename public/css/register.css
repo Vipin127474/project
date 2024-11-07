@@ -1,0 +1,95 @@
+.hero-section {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    min-height: 100vh;
+    text-align: left;
+    padding: 50px;
+}
+
+.hero-content {
+    max-width: 70%;
+    padding-top: 35px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-right: 3rem;
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+.hero-content h2 {
+    font-size: 1.8rem;
+    color: #00aaff;
+    margin-bottom: 20px;
+}
+
+.hero-content .highlight {
+    color: #00aaff;
+    font-weight: bold;
+}
+
+span {
+    font-size: 4rem;
+}
+
+.form {
+    margin-top: 4rem;
+    background-color: transparent; 
+    backdrop-filter: blur(15px); 
+    padding: 20px 40px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 15px rgba(58, 58, 58, 0.3);
+}
+
+.form h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #00aaff;
+    border-radius: 5px;
+    color: #000000;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00aaff;
+    color: #ffffff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #007acc;
+}
+
+.form p {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+.form a:hover {
+    text-decoration: underline;
+}
